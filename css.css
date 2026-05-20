@@ -571,7 +571,196 @@ strong {
 ========================= */
 
 @media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  /* NAV */
+
+  .nav {
+    flex-direction: column;
+
+    gap: 18px;
+
+    padding: 16px;
+  }
+
+  .menu {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 8px;
+  }
+
+  .menu a {
+    padding: 10px 14px;
+
+    font-size: 14px;
+  }
+
+  .menu .active:hover {
+    padding: 10px 14px;
+  }
+
+  /* HERO */
+
+  .hero {
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 100px 20px;
+
+    gap: 40px;
+  }
+
+  .portrait {
+    width: 260px;
+
+    height: auto;
+  }
+
+  .hero .content {
+    align-items: center;
+
+    max-width: 100%;
+  }
+
+  .introduce {
+    font-size: 30px;
+
+    line-height: 1.4;
+  }
+
+  .speed {
+    max-width: 100%;
+
+    font-size: 16px;
+  }
+
+  .CTA {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 10px;
+  }
+
+  /* ABOUT */
+
+  .about {
+    flex-direction: column;
+
+    text-align: center;
+
+    padding: 40px 24px;
+
+    gap: 40px;
+  }
+
+  .about .talk {
+    width: 100%;
+  }
+
+  .about .self {
+    max-width: 100%;
+
+    line-height: 30px;
+
+    font-size: 16px;
+  }
+
+  .picture img {
+    max-width: 300px;
+  }
+
+  /* SKILLS */
+
   .skills-container {
     grid-template-columns: 1fr;
   }
+
+  .skill-box {
+    padding: 25px;
+  }
+
+  /* PROJECT */
+
+  .work1 {
+    flex-direction: column;
+
+    text-align: center;
+
+    gap: 30px;
+
+    padding: 30px 20px;
+
+    margin-left: 0;
+
+    margin-right: 0;
+
+    width: 100%;
+  }
+
+  .words {
+    max-width: 100%;
+
+    margin: 0;
+
+    padding: 0;
+
+    height: auto;
+  }
+
+  .words p {
+    font-size: 16px;
+
+    line-height: 1.7;
+  }
+
+  .words a {
+    padding-left: 0;
+
+    margin: auto;
+  }
+
+  .anh2 {
+    width: 100%;
+
+    height: auto;
+  }
+
+  /* CONTACT */
+
+  .contact-me {
+    height: auto;
+
+    padding: 50px 20px;
+  }
+
+  .contact-me .inside {
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+
+    gap: 50px;
+
+    margin-top: 0;
+  }
+
+  .SDT,
+  .Email,
+  .social {
+    justify-content: center;
+  }
+}
+
 }
