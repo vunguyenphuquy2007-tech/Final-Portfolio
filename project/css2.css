@@ -290,12 +290,58 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* NAV */
+
+  .nav {
+    flex-direction: column;
+    gap: 18px;
+    padding: 16px;
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .menu a {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .menu .active:hover {
+    padding: 10px 14px;
+  }
+
+  /* HEADER */
+
+  .anh1 {
+    height: 300px;
+  }
+
+  .h1 {
+    font-size: 32px;
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+
+  .p1 {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  /* CONTENT */
+
   .content {
     flex-direction: column;
-
-    gap: 60px;
-
+    gap: 50px;
+    margin: 60px auto;
     padding: 0 20px;
   }
 
@@ -303,13 +349,42 @@ html {
     width: 100%;
   }
 
+  .overview hr {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .overview a {
+    margin-top: 25px;
+  }
+
+  .noidung {
+    max-width: 100%;
+  }
+
+  .p4 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  /* CONTACT */
+
+  .contact-me {
+    height: auto;
+    padding: 50px 20px;
+  }
+
   .contact-me .inside {
     flex-direction: column;
-
     align-items: center;
-
     text-align: center;
+    gap: 50px;
+    margin-top: 0;
+  }
 
-    gap: 70px;
+  .SDT,
+  .Email,
+  .social {
+    justify-content: center;
   }
 }
